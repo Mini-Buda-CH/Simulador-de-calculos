@@ -14,12 +14,10 @@
 </head>
 <body class="tablero">
   <a class="saltar" href="#area" id="saltar">Saltar al contenido</a>
-  <!-- 1 y 3: logo y menú de opciones -->
   <aside class="lateral" id="lateral" aria-label="Menú principal">
     <div class="lateral__cabeza">
       <a class="logo" href="index.html" title="Volver al inicio">
-        <!-- Logo personal: reemplaza assets/logo.png (ver README) -->
-        <img class="logo__img" src="assets/logo.png" alt="Logo" id="logo-img">
+        <img class="logo__img" src="assets/Logo.png" alt="Logo" id="logo-img">
         <span class="logo__relleno" id="logo-relleno" hidden>Del aula a la bolsa</span>
       </a>
       <button class="lateral__colapsar" type="button" id="btn-colapsar" aria-label="Contraer menú" aria-expanded="true">«</button>
@@ -69,7 +67,6 @@
   </aside>
 
   <div class="principal">
-    <!-- 2: nombre del proyecto -->
     <header class="superior">
       <button class="superior__menu" type="button" id="btn-menu-movil" aria-label="Abrir menú" aria-controls="lateral" aria-expanded="false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -79,7 +76,6 @@
     </header>
 
     <main class="contenido">
-      <!-- 4: opción seleccionada -->
       <div class="encabezado">
         <p class="etiqueta" id="encabezado-etiqueta">Simulador</p>
         <h1 class="encabezado__titulo" id="titulo-opcion">Valor de emisión</h1>
@@ -90,7 +86,6 @@
         No hay datos de la empresa. <a href="index.html">Captúralos en el inicio</a>; mientras tanto se usa MXN como divisa.
       </div>
 
-      <!-- 5: espacio de trabajo de cada opción -->
       <section class="area" id="area" aria-live="polite" tabindex="-1"></section>
     </main>
   </div>
